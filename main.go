@@ -3,7 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	a, b, c := 1, 2, 3
+	printMessage(`Текст 1`)
+	printMessage(`Текст 2`)
+	printMessage(`Текст 3`)
+}
 
-	fmt.Println(a, b, c)
+func printMessage(msg string) {
+	fmt.Println(msg)
 }
