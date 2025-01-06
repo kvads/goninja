@@ -3,9 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var str string
-	var n int
+	a, b, c := 1, 2, 3
 
-	fmt.Println(str)
-	fmt.Println(n)
+	fmt.Println(a, b, c)
 }
