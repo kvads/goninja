@@ -1,19 +1,11 @@
 package main
 
-import (
-	"fmt"
-	"reflect"
-)
-
-const msg string = `Hello World!`
+import "fmt"
 
 func main() {
-	fmt.Println(msg)
-	var smsg string = `Hello again!`
-	smsg = `Rewrite Hello again!`
-	fmt.Println(smsg)
-	tmsg := `Hello again! Again!`
-	fmt.Println(tmsg)
+	var str string
+	var n int
 
-	fmt.Println(reflect.TypeOf(msg))
+	fmt.Println(str)
+	fmt.Println(n)
 }
