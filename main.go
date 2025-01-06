@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 const msg string = `Hello World!`
 
@@ -11,4 +14,6 @@ func main() {
 	fmt.Println(smsg)
 	tmsg := `Hello again! Again!`
 	fmt.Println(tmsg)
+
+	fmt.Println(reflect.TypeOf(msg))
 }
